@@ -1,0 +1,256 @@
+body {
+    font-family: 'Lucida bright'; 
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    background-color: rgb(81, 179, 211, 0.9);
+    width: 100%;
+    height: 60px;
+    color: white;
+    position: fixed;
+    z-index: 2;
+    top:0px;
+}
+
+.header-text {
+    float: left;
+    font-size: 35px;
+    letter-spacing: 5px;
+    padding: 10px 20px;
+}
+.about a, .das a, .less a  {
+    text-decoration: none;
+    color: white;
+}
+.content {
+    float: left;
+    padding: 10px 50px;
+    display: block;
+    border-bottom: none;
+}
+
+.das:hover {
+    opacity: 1;
+    border-bottom: 2px solid lightgray;
+    cursor: pointer;
+}
+.about:hover {
+    opacity: 1;
+    border-bottom: 2px solid lightgray;
+    cursor: pointer;
+}
+.less:hover {
+    opacity: 1;
+    border-bottom: 2px solid lightgray;
+    cursor: pointer;
+}
+
+.header-right {
+    float: right;
+    font-size: 20px;
+    display: block;
+    background-color:rgb(124, 110, 110, 0.5);
+    padding:18px 20px;
+}
+
+.header-right:hover {
+    background-color:rgb(124, 110, 110, 1);
+}
+
+.main-cover {
+    background-image: url(maxresdefault.jpg);
+    background-size: cover;
+    padding-bottom: 200px;
+    color: white;
+    opacity: 0.9;
+}
+
+.main {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.main-cover span {
+    color: red;
+}
+
+.main-cover h1 {
+    font-weight: bold;
+    font-size: 50px ;
+    padding-top: 200px;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.main-cover p {
+    font-size: 20px;
+    padding: 10px 0px;
+    line-height: 5px;
+    opacity: 0.9;
+}
+
+.main-contain {
+    top:0px;
+}
+
+.text-ex {
+    text-align: left;
+    font-size: 20px;
+    padding-left: 30px;
+    border-bottom: 1px solid lightgray;
+}
+.lesson-stuf {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    float: left;
+
+}
+
+.lest {
+    position: relative;
+    left: -50px;
+    float: left;
+    margin: 0px 20%;
+    border: 2px solid lightgray;
+    border-radius: 4px;
+    box-shadow: 0 0 7px lightgray;
+    width: 90%;
+    margin-bottom:20px ;
+}
+
+.lest img {
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.lest p {
+    position: relative;
+    top: 10px;
+    right: 100px;
+    border-style: none;
+    box-shadow: none;
+}
+.lesson-stuf span {
+    position: relative;
+    left: 30px;
+    background-color: rgb(33, 187, 33);
+    border-radius: 5px;
+    box-shadow: 0 5px rgb(0, 112, 0);
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.lesson-stuf span:active {
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+}
+
+.lesson-stuf2 {
+    float: left;
+    margin-top: 20px;
+}
+.lest2 {
+    position: relative;
+    float: left;
+    margin: 0px 20%;
+    width: 90%;
+    border: 2px solid lightgray;
+    box-shadow: 0 0 7px lightgray;
+}
+
+.lest2 p {
+    position: relative;
+    top: 10px;
+    right: 60px;
+    box-shadow: none;
+    border: none;
+}
+.lest2 img {
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.lesson-stuf2 span {
+    position: relative;
+    top: 20px;
+    left: 60px;
+    background-color: rgb(33, 187, 33);
+    border-radius: 5px;
+    box-shadow: 0 5px rgb(0, 112, 0);
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.lesson-stuf2 span:active {
+    box-shadow: none;
+    position: relative;
+    top: 25px;
+}
+
+.comment {
+    width: 100%;
+    margin-top: 100px;
+    border-top: 1px solid lightgray;
+    padding-top: 30px;
+    float: left;
+}
+
+.comment {
+    text-align: left;
+    margin-left: 20px;
+}
+.sub-comment {
+    float:right;
+    position: relative ;
+    right: 81%;
+}
+input, textarea {
+    padding: 20px;
+    width: 400px;
+    border: 1px solid lightgray;
+    margin-bottom: 10px;
+}
+
+.check {
+    position: relative;
+    right: 14.9%;
+}
+
+.footer {
+    background-color: rgb(94, 94, 204);
+    color: white;
+    height: 95px;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 1300px;
+}
+
+.contact img {
+    align-items: right;
+    float: right;
+    height: 20px;
+    width: 20px;
+    padding: 50px 20px ;
+    position: relative;
+    left: 168px;
+}
+.footer-left {
+    float: left;
+    padding: 30px;
+}
+
+.footer-right {
+    text-align: right;
+    float: right;
+    padding: 10px 20px;
+    margin-right: 20px;
+}
